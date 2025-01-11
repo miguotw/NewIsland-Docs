@@ -13,12 +13,12 @@ timezone:
 # jekyll-seo-tag 設定 › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: 新島嶼 NewIsland Wiki # 主標題
+title: 島嶼文檔 NewIsland Docs # 主標題
 
 tagline: # 將顯示為副標題
 
 description: >- # 由 seo meta 和 atom feed 使用
-  新島嶼 NewIsland Wiki | 島嶼百科全書，由官方與島民共同維護，致力於解釋遊戲內的各個系統與玩法。
+  島嶼文檔 NewIsland Docs | 由官方與島民共同維護，致力於解釋遊戲內的各個系統與玩法。
 
 # 填入您網站的通訊協定與主機名稱。
 # 例如 'https://username.github.io' ，注意它不是以 '/' 結尾。
