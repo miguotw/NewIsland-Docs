@@ -10,6 +10,7 @@ on:
       - LICENSE
 
   # Allows you to run this workflow manually from the Actions tab
+  # 允許您從行動索引標籤手動執行此工作流程
   workflow_dispatch:
 
 permissions:
@@ -18,6 +19,7 @@ permissions:
   id-token: write
 
 # Allow one concurrent deployment
+# 允許一次同時部署
 concurrency:
   group: "pages"
   cancel-in-progress: true
@@ -33,7 +35,8 @@ jobs:
           fetch-depth: 0
           # submodules: true
           # If using the 'assets' git submodule from Chirpy Starter, uncomment above
-          # (See: https://github.com/cotes2020/chirpy-starter/tree/main/assets)
+          # 如果使用 Chirpy Starter 的 'assets' git 子模組，請取消上面的註解
+          # (參考: https://github.com/cotes2020/chirpy-starter/tree/main/assets)
 
       - name: Setup Pages
         id: pages
@@ -42,7 +45,7 @@ jobs:
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: 3.3
+          ruby-version: 3.1
           bundler-cache: true
 
       - name: Build site
