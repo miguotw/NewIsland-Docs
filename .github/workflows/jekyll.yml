@@ -33,12 +33,40 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      - name: Setup Ruby
-        uses: ruby/setup-ruby@8575951200e472d5f2d95c625da0c7bec8217c42 # v1.161.0
-        with:
-          ruby-version: '3.1' # Not needed with a .ruby-version file
-          bundler-cache: true # runs 'bundle install' and caches installed gems automatically
-          cache-version: 0 # Increment this number if you need to re-download cached gems
+  #    - name: Setup Ruby
+  #      uses: ruby/setup-ruby@8575951200e472d5f2d95c625da0c7bec8217c42 # v1.161.0
+  #      with:
+  #        ruby-version: '3.1' # Not needed with a .ruby-version file
+  #        bundler-cache: true # runs 'bundle install' and caches installed gems automatically
+  #        cache-version: 0 # Increment this number if you need to re-download cached gems
+
+      # Install Ruby and dependencies manually
+      - name: Setup Ruby (Install Ruby using rbenv)
+        run: |
+          # Install required dependencies
+          sudo apt-get update
+          sudo apt-get install -y build-essential libssl-dev zlib1g-dev libreadline-dev
+
+          # Install rbenv and ruby-build
+          git clone https://github.com/rbenv/rbenv.git ~/.rbenv
+          echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bashrc
+          echo 'eval "$(rbenv init -)"' >> ~/.bashrc
+          source ~/.bashrc
+          git clone https://github.com/rbenv/ruby-build.git ~/.rbenv/plugins/ruby-build
+          ~/.rbenv/plugins/ruby-build/install.sh
+
+          # Install Ruby 3.1.4 and set it as the default version
+          ~/.rbenv/bin/rbenv install 3.1.4
+          ~/.rbenv/bin/rbenv global 3.1.4
+
+          # Verify Ruby installation
+          ruby -v
+
+      - name: Setup bundler and install dependencies
+        run: |
+          gem install bundler
+          bundle install
+
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
