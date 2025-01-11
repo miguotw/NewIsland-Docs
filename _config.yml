@@ -22,7 +22,7 @@ description: >- # 由 seo meta 和 atom feed 使用
 
 # 填入您網站的通訊協定與主機名稱。
 # 例如 'https://username.github.io' ，注意它不是以 '/' 結尾。
-url: "https://miguotw.github.io/NewIsland-wiki"
+url: "https://miguotw.github.io"
 
 github:
   username: github_username # 變更為您的 GitHub 使用者名稱
