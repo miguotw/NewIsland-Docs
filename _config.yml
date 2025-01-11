@@ -96,7 +96,7 @@ theme_mode: # [light | dark]
 cdn:
 
 # 側邊欄上的頭像，支援本機或 CORS 資源
-avatar: "/assets/img/favicons/web-app-manifest-512x512.png"
+avatar: "/assets/img/avatar/avater.png"
 
 # SEO `og:image` meta tag 中使用的全站社交預覽圖片的 URL。
 # 它可以被前端自訂的 `page.image` 所覆寫。
