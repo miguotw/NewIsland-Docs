@@ -41,15 +41,15 @@ jobs:
           git clone https://github.com/rbenv/ruby-build.git
           sudo ./ruby-build/install.sh
 
-      - name: Install Ruby 3.4.1
+      - name: Install Ruby 3.1.4
         run: |
-          ruby-build 3.4.1 /opt/hostedtoolcache/Ruby/3.4.1/x64
-          touch /opt/hostedtoolcache/Ruby/3.4.1/x64.complete
+          ruby-build 3.1.4 /opt/hostedtoolcache/Ruby/3.1.4/x64
+          touch /opt/hostedtoolcache/Ruby/3.1.4/x64.complete
         env:
           RUNNER_TOOL_CACHE: /opt/hostedtoolcache
 
       - name: Setup Ruby environment
-        run: echo "/opt/hostedtoolcache/Ruby/3.4.1/x64/bin" >> $GITHUB_PATH
+        run: echo "/opt/hostedtoolcache/Ruby/3.1.4/x64/bin" >> $GITHUB_PATH
 
       - name: Setup Bundler
         run: gem install bundler --no-document
@@ -63,7 +63,7 @@ jobs:
         run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
         env:
           JEKYLL_ENV: production
-
+          
       - name: Upload artifact
         # Automatically uploads an artifact from the './_site' directory by default
         uses: actions/upload-pages-artifact@v3
