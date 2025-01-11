@@ -12,3 +12,9 @@ platforms :mingw, :x64_mingw, :mswin, :jruby do
 end
 
 gem "wdm", "~> 0.2.0", :platforms => [:mingw, :x64_mingw, :mswin]
+
+gem "csv" # 添加 CSV 依賴 (windows 開發環境)
+gem "logger" # 添加 Logger 依賴 (windows 開發環境)
+gem "base64" # 添加 base64 依賴 (windows 開發環境)
+
+
