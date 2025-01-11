@@ -147,7 +147,7 @@ pwa:
 paginate: 10
 
 # 您網站的基本 URL
-baseurl: "/NewIsland-wiki"
+baseurl: ""
 
 # ------------ 不建議修改下列選項 ------------------
 
