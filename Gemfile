@@ -13,7 +13,7 @@ end
 
 gem "wdm", "~> 0.2.0", :platforms => [:mingw, :x64_mingw, :mswin]
 
-gem "jekyll-admin"
+gem "jekyll-admin", "~> 0.10.0",group: :jekyll_plugins
 
 gem "csv"#, "~> 3.3.2" # 添加 CSV 依賴 (windows 開發環境)
 gem "logger"#, #~> 1.6.5" # 添加 Logger 依賴 (windows 開發環境)
