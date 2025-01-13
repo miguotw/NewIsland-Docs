@@ -1,4 +1,4 @@
-#「島嶼文檔 NewIsland Docs」
+# 「島嶼文檔 NewIsland Docs」
 由官方團隊與島民共同維護，致力於解釋遊戲內的各個系統與玩法。
 
 ## 想為島嶼文檔貢獻內容嗎？
@@ -6,10 +6,12 @@
 
 ## 如何貢獻內容？
 下方詳列您可以如何對「島嶼文檔」做出貢獻：
+
 1. 到「島嶼文檔」的 GitHub 儲存庫頁面，依次點選 `Issues` → `New issue` 即可！您也可以點擊 [此處](https://github.com/miguotw/NewIsland-Docs/issues/new/choose) 前往！ 
 2. 選擇一個 `Issues` 開始撰寫即可！
+   
     > 請務必嚴格依照 [Markdown](https://docs.github.com/zh/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) 語法進行撰寫。
-    {: .prompt-tip }
+    
     > 您提交的文本在上架到「島嶼文檔」前皆會經過審核，必要時會進行些微的修改。
-    {: .prompt-tip }
-3. 撰寫完成後按下頁面中的 `Submit new issue` 即可完成提交，接下來請等待維護人員的審核與上架！
+    
+4. 撰寫完成後按下頁面中的 `Submit new issue` 即可完成提交，接下來請等待維護人員的審核與上架！
