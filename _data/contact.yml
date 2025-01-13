@@ -8,6 +8,18 @@
   icon: 'fa-brands fa-discord'
   url: 'https://discord.gg/wsXv9DHHDz'
 
+#- type: Facebook
+#  icon: 'fa-brands fa-facebook-f'
+#  url: 'https://www.facebook.com/twnewisland/'
+
+#- type: Instagram
+#  icon: 'fa-brands fa-instagram'
+#  url: 'https://www.instagram.com/twnewisland/'
+
+#- type: YouTube
+#  icon: 'fa-brands fa-youtube'
+#  url: 'https://www.youtube.com/channel/UCwK4Vd9xcUH-p_Xa5rDRm1w'
+
 - type: docs_lib
   icon: 'fab fa-github'
   url: 'https://github.com/miguotw/NewIsland-wiki'
