@@ -2,7 +2,7 @@
 name: 我想對「島嶼文檔 NewIsland Docs」中的舊有內容進行補充
 about: 請使用以下範本，依照 (括號) 內的指示，將文本填入所有包含 (括號) 的輸入框中，並取代 (括號) 本身。
 title: 我想對「島嶼文檔 NewIsland Docs」中的舊有內容進行補充
-labels: ''
+labels: 內容補充
 assignees: ''
 
 ---
