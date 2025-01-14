@@ -19,7 +19,7 @@ order: 4
 1. 到「島嶼文檔 NewIsland Docs」的 GitHub [儲存庫](https://github.com/miguotw/NewIsland-Docs) 頁面，依次點選 `Issues` → `New issue` 即可！您也可以點擊 [此處](https://github.com/miguotw/NewIsland-Docs/issues/new/choose) 前往！ 
 2. 選擇一個 `Issues` 開始撰寫即可！
     > 請務必嚴格依照 [Markdown](https://docs.github.com/zh/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) 語法進行撰寫。
-    {: .prompt-tip }
+    {: .prompt-warning }
     > 您提交的文本在上架到「島嶼文檔 NewIsland Docs」前皆會經過審核，必要時會進行些微的修改。
-    {: .prompt-tip }
+    {: .prompt-warning }
 3. 撰寫完成後按下頁面中的 `Submit new issue` 即可完成提交，接下來請等待維護人員的審核與上架！
