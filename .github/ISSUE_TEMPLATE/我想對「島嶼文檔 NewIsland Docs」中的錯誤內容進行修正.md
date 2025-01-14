@@ -1,7 +1,7 @@
 ---
-name: 修正「島嶼文檔」中的內容錯誤
+name: 我想對「島嶼文檔 NewIsland Docs」中的錯誤內容進行修正
 about: 請使用以下範本，依照 (括號) 內的指示，將文本填入所有包含 (括號) 的輸入框中，並取代 (括號) 本身。
-title: 修正「島嶼文檔」中的內容錯誤
+title: 我想對「島嶼文檔 NewIsland Docs」中的錯誤內容進行修正
 labels: ''
 assignees: ''
 

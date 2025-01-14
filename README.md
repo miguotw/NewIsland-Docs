@@ -1,4 +1,4 @@
-# 島嶼文檔 NewIsland Docs
+# [島嶼文檔 NewIsland Docs](https://docs.newisland.tw/)
 由官方團隊與島民共同維護，致力於解釋遊戲內的各個系統與玩法。
 
 ## 想為島嶼文檔貢獻內容嗎？
