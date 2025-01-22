@@ -28,6 +28,9 @@ pin: false
 ### 帳號轉移的步驟
 1. 「[建立私人問題](discord://discord.com/channels/848202526250893383/971376509048729650)」提出您想要轉移帳號資料
 
+    > 請務必透過欲轉移之 Minecraft 帳號所綁定的 Discord 帳號「[建立私人問題](discord://discord.com/channels/848202526250893383/971376509048729650)」，否則我們無法確定您是否是該 Minecraft 帳號的擁有者。
+    {: .prompt-warning }
+
     > 依照每位島民的狀況不同，我們可能會要求您提供某些資訊，但絕對不會要求您提供密碼。
     {: .prompt-tip }
 
